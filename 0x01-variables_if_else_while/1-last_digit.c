@@ -18,11 +18,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	d = n / 10;
-	if (n > 5)
+	if (d > 5)
 	{
 		printf("%d and is greater than 5\n", n);
 	}
-	else if (n < 6)
+	else if (d < 6)
 	{
 		printf("%d and is less than 6\n", n);
 	}
