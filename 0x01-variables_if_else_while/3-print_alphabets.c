@@ -14,7 +14,7 @@ int main(void)
 	putchar(lc);
 	}
 
-	for (uc = 'A' uc <= 'Z'; uc++)
+	for (uc = 'A'; uc <= 'Z'; uc++)
 	{
 	putchar(uc);
 	}
