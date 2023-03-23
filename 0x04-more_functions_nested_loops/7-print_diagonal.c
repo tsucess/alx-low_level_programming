@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_line - function that prints lines
+ * print_diagonal - function that prints diagonal line
  * @n: line parameter
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	if (n <= 0)
 	{
