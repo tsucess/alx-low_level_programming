@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print uppercase - function to print alphabet in uppercase
- *
- * Return: Always 0.
+ * _isupper - function to print alphabet in uppercase
+ * @c: the character
+ * Return: 1 if letter is uppercase, 0 if not.
  */
 int _isupper(int c)
 {
-	if(c >= 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
