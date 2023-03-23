@@ -1,9 +1,8 @@
 #include "main.h"
-#include "_putchar.c"
 /**
  * print_numbers - function that prints numbers 0 - 9
  *
- * RetuIrn: void.
+ * Return: void.
  */
 void print_numbers(void)
 {
