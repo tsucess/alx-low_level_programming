@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * puts2 - prints one character out of two
  * @str: string character
