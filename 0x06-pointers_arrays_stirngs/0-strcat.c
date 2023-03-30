@@ -19,8 +19,10 @@ char *_strcat(char *dest, char *src)
 		int c = a + b;
 
 		dest[c] = src[b];
+		a++;
 		b++;
 	}
 
+	dest[i] = '\0';
 	return (dest);
 }
