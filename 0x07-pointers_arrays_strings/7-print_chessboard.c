@@ -9,14 +9,10 @@ void print_chessboard(char (*a)[8])
 	int c = 0;
 	int b = 0;
 
-	while (c < 8)
+	for (; c < 8; c++)
 	{
-		while (b < 8)
-		{
+		for (; b < 8; b++)
 			_putchar(a[c][b]);
-			b++;
-		}
-		c++;
 		_putchar('\n');
 	}
 }
