@@ -4,7 +4,6 @@
  * print_diagsums - function that prints sum of two diagonals
  * @a: array
  * @size: size of array
- * Return: void 0 (Succes)
  */
 void print_diagsums(int *a, int size)
 {
