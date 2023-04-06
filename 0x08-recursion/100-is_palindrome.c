@@ -12,7 +12,7 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
-	return(chck_pal(s, 0, _strlen_recur(s)));
+	return (chck_pal(s, 0, _strlen_recur(s)));
 }
 /**
  * _strlen_recur - function that get  the length of a string
@@ -22,11 +22,11 @@ int is_palindrome(char *s)
  */
 int _strlen_recur(char *s)
 {
-        if (*s == '\0')
+	if (*s == '\0')
 	{
-                return (0);
+		return (0);
 	}
-        return (1 + _strlen_recur(s + 1));
+	return (1 + _strlen_recur(s + 1));
 }
 /**
  * chck_pal - func that checks the characters recursively for palindrome
@@ -38,14 +38,13 @@ int _strlen_recur(char *s)
  */
 int chck_pal(char *s, int k, int l)
 {
-        if (*(s + k) != *(s + l - 1))
+	if (*(s + k) != *(s + l - 1))
 	{
-                return (0);
+		return (0);
 	}
-        if (k >= l)
+	if (k >= l)
 	{
-                return (1);
+		return (1);
 	}
-        return (chck_pal(s, k + 1, l - 1));
+	return (chck_pal(s, k + 1, l - 1));
 }
-
