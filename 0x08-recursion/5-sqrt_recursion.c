@@ -1,22 +1,10 @@
 #include "main.h"
+int a_sqrt_recursion(int n, int a);
 /**
- * a_sqrt_recursion - recurses to find the natural
- * @n: number to calculate the sqaure root of
- * @a: increment iterator
- *
- * _sqrt_recursion: function that return the square root of a number
+ * _sqrt_recursion - function that return the square root of a number
  * @n: the actual number
  * Return: square root of n
  */
-int a_sqrt_recursion(int n, int a)
-{
-	if (a * a > n)
-		return (-1);
-	if (a * a == n)
-		return (a);
-	return (a_sqrt_recursion(n, a + 1));
-}
-
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
@@ -24,4 +12,24 @@ int _sqrt_recursion(int n)
 		return (-1);
 	}
 	return (a_sqrt_recursion(n, 0));
+}
+/**
+ * a_sqrt_recursion - recurses to find the natural
+ * @n: number to calculate the sqaure root of
+ * @a: increment iterator
+ * Return: square root of number
+ */
+
+
+int a_sqrt_recursion(int n, int a)
+{
+	if (a * a > n)
+	{
+		return (-1);
+	}
+	if (a * a == n)
+	{
+		return (a);
+	}
+	return (a_sqrt_recursion(n, a + 1));
 }
