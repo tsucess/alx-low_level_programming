@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int a, b;
 	int sum = 0;
 
-	while (a < argc)
+	while (a >= 1 && a < argc)
 	{
 		if (check_num(argv[a]))
 		{
