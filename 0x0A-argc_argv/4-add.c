@@ -11,29 +11,23 @@
 int main(int argc, char *argv[])
 {
 	int a, b;
-	int sum;
+	int sum = 0;
 
-	if (argc < 1)
+	while (a < argc)
 	{
-	printf("0\n");
-	}
-	else
-	{
-		while (a >= 1)
+		if (check_num(argv[a]))
 		{
-			if (check_num(argv[a]))
-			{
-				b = _atoi(argv[a]);
-				sum += b;
-			}
-			else
-			{
-				printf("Error\n");
-				return (1);
-			}
-			a++;
+			b = _atoi(argv[a]);
+			sum += b;
 		}
-		printf("%d\n", sum);
+		else
+		{
+			printf("Error\n");
+			return (1);
+		}
+		a++;
 	}
+	printf("%d\n", sum);
+
 	return  (0);
 }
