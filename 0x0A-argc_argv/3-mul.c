@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point Program that prints all arguments one per line
+ * main - Program that multiplies two arguments and print a new line
  * @argc: counter parameter
  * @argv: array parameter
  *
@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 	int mul;
 
-	if (argc < 3 || 3)
+	if (argc < 3 || argc > 3)
 	{
 	printf("Error\n");
 	}
