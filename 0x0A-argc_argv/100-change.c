@@ -29,13 +29,15 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
+
 	b = 0;
+
 	while (b < 5 && a >= 0)
 	{
 		while (a >= coins_array[b])
 		{
 			calc++;
-			a -= coinc_array[b];
+			a -= coins_array[b];
 		}
 		b++;
 	}
