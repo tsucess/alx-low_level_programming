@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 	b = 0;
 	while (b < 5 && a >= 0)
 	{
-		while(a >= coins_array[b])
+		while (a >= coins_array[b])
 		{
 			calc++;
 			a -= coinc_array[b];
