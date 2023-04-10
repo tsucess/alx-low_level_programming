@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+#include "100-atoi.c"
 /**
  * main - Entry point prints the minimum number of coins
  * to change for an amount of money in cent
