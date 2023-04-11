@@ -7,7 +7,7 @@
  *
  * Return: pointer to a new memory
  */
-char *_strdup(char * str)
+char *_strdup(char *str)
 {
 	char *dup;
 	unsigned int a, len;
