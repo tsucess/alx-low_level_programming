@@ -41,7 +41,7 @@ char **strtow(char *str)
 			}
 		}
 		else if (c++ == 0)
-			start = a;	
+			start = a;
 	}
 		matrx[b] = NULL;
 		return (matrx);

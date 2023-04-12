@@ -9,8 +9,7 @@ int count_word(char *s)
 {
 	int a, b, word;
 
-	a = 0;
-	word =0;
+	a = 0, word =0;
 
 	for (b = 0; s[b] != '\0'; b++)
 	{
