@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _realloc - function that reallocates a memory
- * @ptr: pointer parameter 
+ * @ptr: pointer parameter
  * @old_size: previor size parameter
  * @new_size: new size parameter
  *
@@ -26,5 +26,5 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	}
 	free(ptr);
 	ptr = malloc(new_size);
-	return ptr;
+	return (ptr);
 }
