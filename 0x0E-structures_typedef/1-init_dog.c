@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdlib.h>
 #include "dog.h"
 /**
@@ -8,7 +7,6 @@
  * @age: float parameter
  * @owner: char paremeter
  *
- * Return: void
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
