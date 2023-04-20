@@ -1,4 +1,5 @@
-#include "fucntion_pointers.h"
+#include "function_pointers.h"
+#include <stdio.h>
 /**
  * array_iterator - function that takes a function as parameter
  * @array: array parameter
