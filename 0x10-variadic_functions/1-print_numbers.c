@@ -1,13 +1,13 @@
 #include "variadic_functions.h"
-#include <stdarg.h>
 #include <stdio.h>
+#include <stdarg.h>
 /**
  * print_numbers - function that prints numbers
  * @separator: The string parameter
  * @n: number of parameter in the function
  * @'...: variable number parameter
  */
-void print_numbers(const char *separator, const unsigned int n)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list num;
 	unsigned int a;
