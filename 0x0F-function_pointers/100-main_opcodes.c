@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlibi.h>
+#include <stdlib.h>
 /**
  * main - program that prints opcodes of main
  * @argc: argument counter parameter
