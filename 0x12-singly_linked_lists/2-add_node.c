@@ -3,34 +3,34 @@
 #include "lists.h"
 
 /**
- * add_node - function that add new node begining of list_t
- * @head: pointer param to structure
+ * add_node - function that  add new node begining of list_t
+ * @head: pointer to structure
  * @str: string
  * Return: the adrres of new element
  */
 
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *nwNode;
+	list_t *newNode;
 	unsigned int length = 0;
 
 	newNode = malloc(sizeof(list_t));
-	if (nwNode == NULL)
+	if (newNode == NULL)
 	{
-		free(nwNode);
+		free(newNode);
 		return (NULL);
 	}
-	nwNode->str = strdup(str);
+	newNode->str = strdup(str);
 	while (str[length] != '\0')
 	{
 		length++;
 	}
-	nwNode->len = length;
+	newNode->len = length;
 	if (*head != NULL)
-		nwNode->next = *head;
+		newNode->next = *head;
 	if (*head == NULL)
-		nwNode->next = NULL;
-	*head = nwNode;
+		newNode->next = NULL;
+	*head = newNode;
 	return (*head);
 }
 
