@@ -1,9 +1,9 @@
 #include "header.h"
-#include "print-entry_close-elf.c"
-#include "print-abi_type.c"
-#include "print-version_osabi.c"
-#include "print-class_data.c"
 #include "check-elf_print-magic.c"
+#include "print-class_data.c"
+#include "print-version_osabi.c"
+#include "print-abi_type.c"
+#include "print-entry_close-elf.c"
 
 /**
  * main - Displays the information contained in the
